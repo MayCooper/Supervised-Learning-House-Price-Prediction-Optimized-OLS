@@ -84,7 +84,8 @@ Price = 130.13 * SquareFootage
       - 37.60 * BackyardSpace
       - 1,635.42 * DistanceToCityCenter
 ```
-- Distribution of **Price**
+#### Distribution of **Price**
+
 ![image](https://github.com/user-attachments/assets/cd3e3663-d8d4-4c8a-8c0c-7496e2828172)
 
 ---
@@ -146,24 +147,6 @@ Price = 130.13 * SquareFootage
 
 ---
 
----
-
-## Final Thoughts
-
-This project showcases how statistical data mining can be used to uncover actionable insights from real-world datasets. The housing market, influenced by both tangible features (like square footage) and contextual factors (like location), offers a rich domain for predictive modeling.
-
-By leveraging rigorous EDA, optimized modeling, and validation strategies, this project not only demonstrates strong predictive accuracy but also yields meaningful recommendations for various stakeholders in the housing ecosystem.
-
----
-
-## Conclusion
-
-This project successfully built and optimized a linear regression model to predict housing prices with high accuracy and interpretability. It identifies actionable patterns in the housing market and offers data-backed strategies for real estate professionals and investors. The model balances complexity and precision, serving as a valuable tool for real-world decision-making.
-
-
-
----
-
 ## Extended Exploratory Data Analysis (EDA)
 
 Understanding the dataset was a critical early step. The distribution and relationships between variables were explored using both statistical summaries and visual techniques.
@@ -179,7 +162,7 @@ Understanding the dataset was a critical early step. The distribution and relati
 ### Univariate and Bivariate Visualizations
 
 - **Histograms** and **box plots** were used to examine the spread, skewness, and presence of outliers.
-- **Scatterplots** helped assess linearity with respect to `Price`, supporting the validity of using a linear model.
+- **Scatterplots** helped assess linearity concerning `Price`, supporting the validity of using a linear model.
 - **Heatmaps** of correlation matrices were used to identify initial multicollinearity concerns.
 
 ---
@@ -251,3 +234,13 @@ Below is a preview of a few records from the dataset used in this project:
 This subset highlights the diversity in housing characteristics and pricing used for training and testing the model.
 
 ---
+
+---
+
+## Conclusion
+
+This project demonstrates how statistical data mining and supervised machine learning can uncover actionable insights from real-world housing data. By leveraging rigorous exploratory data analysis, optimized linear regression modeling, and careful validation, it delivers a high-performing predictive model that explains over 91% of price variance.
+
+The housing market—shaped by tangible property attributes (like square footage and bathrooms) and contextual neighborhood factors (like proximity to city centers)—is a valuable domain for multivariate modeling. This solution highlights key price drivers and offers practical recommendations for real estate developers, investors, buyers, and policymakers.
+
+Balancing complexity and interpretability, the final model serves as a data-backed decision-making tool for various stakeholders in the real estate ecosystem.
