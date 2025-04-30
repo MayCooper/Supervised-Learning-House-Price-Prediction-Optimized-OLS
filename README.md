@@ -1,0 +1,2 @@
+# Supervised-Learning-House-Price-Prediction-Optimized-OLS
+A multivariate supervised ML project for predicting house prices using an optimized Ordinary Least Squares regression model. This project includes feature selection via backward stepwise elimination, multicollinearity reduction using VIF, and model evaluation with MSE and R² metrics.uction using VIF, and model evaluation with MSE and R² metrics.
